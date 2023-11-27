@@ -13,9 +13,10 @@ while( i < spesa.length){
     /* ANDIAMO A RIPRENDERE LA LISTA NELL'HTML E GLI AGGIUNGIAMO UNA LI CON IL PRODOTTO AD OGNI CICLO */
     document.querySelector(`ul`).innerHTML += `<li>${prodotto}</li>`
 
+    /* STAMPIAMO I PRODOTTI IN CONSOLE */
+    console.log(prodotto)
+
     /* AD OGNI CICLO i AUMENTA DI 1 */
     i++
 
-    /* STAMPIAMO I PRODOTTI IN CONSOLE */
-    console.log(prodotto)
 }
